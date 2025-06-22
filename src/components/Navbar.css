@@ -12,9 +12,10 @@
 .navbar-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /* logo left, toggle right */
   max-width: 1100px;
   margin: 0 auto;
+  position: relative; /* for absolute positioning of nav-links */
 }
 
 .navbar-logo {
