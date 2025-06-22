@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../spervape-logo.png';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +19,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
+        <img src={logo} alt="Spercompany Logo" className="logo" />
           Spercompany
         </Link>
 
